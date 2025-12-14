@@ -13,5 +13,6 @@ This map represents the percentage of each state in which there is ‘rent burde
 <iframe src="YIBGYStates.jpg" height="855" width="95%"></iframe>
 
 <iframe src="NYCFaithBased.html" height="855" width="95%"></iframe>
+This dynamic map showcases the developments that are specific to New York City. It is overlayed with a heat map representing the residential evictions that have happened within the past two year (2023-2025), in addition to this, one can see the parts of NYC that are zoned as “inclusionary Housing Areas.” This means that developers building in those areas get a tax credit for including affordable housing units in their buildings. The data was pulled from the NYC open data portal.
 
 
