@@ -43,7 +43,7 @@ This webmap will include two static maps and two dynamic maps to held visualize 
   <div class="map-item">
     <img src="Rent Burdened Map.png" alt="Rent Burdened Population by State">
     <p>
-This map represents the percentage of each state in which there is ‘rent burden’ this means renter spend 30% or more of the household income on their rent. The map represents the percentage of people who are rent burdened in each state. This was created using the ACS 2016-2020 Estimates from the US Census. Overlaid is the faith-based development points. The intention with this static map is to showcase the relationship between affordable housing development and rent burdened populations.
+This map represents the percentage of each state in which there is ‘rent burden’ this means renters spend 30% or more of their household income on their rent. The map represents the percentage of people who are rent burdened in each state. This was created using the ACS 2016-2020 Estimates from the US Census. They were loaded using a census API and turned into a geodata frame. Overlaid is the faith-based development points. The developments were geocoded and placed as points on the map. The intention with this static map is to showcase the relationship between affordable housing development and rent burdened populations.
     </p>
   </div>
 
@@ -86,7 +86,7 @@ The basemap can also be switched between a simple Carto Positron basemap and Ope
 ### NYC Developments and Housing
 <iframe src="NYCFaithBased.html" height="855" width="95%"></iframe>
 
-This dynamic map showcases the developments that are specific to New York City. It is overlayed with a heat map representing the residential evictions that have happened within the past two year (2023-2025), in addition to this, one can see the parts of NYC that are zoned as “Inclusionary Housing Areas.” This means that developers building in those areas get a tax credit for including affordable housing units in their buildings. The data was pulled from the NYC open data portal.
+This dynamic map showcases the developments that are specific to New York City. It is overlayed with a heat map representing the residential evictions that have happened within the past two years (2023-2025), in addition to this, one can see the parts of NYC that are zoned as “Inclusionary Housing Areas.” This means that developers building in those areas get a tax credit for including affordable housing units in their buildings. The data was pulled from the NYC open data portal as a shape file and an csv file that was then turned into a geo-dataset. The evictions data had over 100,000 entries and had to be cleaned, we filtered the data to only reflect residential evictions. 
 
 ### Credits
 These maps were created for Command-Line GIS, a graduate course taught at Rutgers. 
