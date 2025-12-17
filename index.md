@@ -81,8 +81,7 @@ Statewise trends can be toggled on/off, in the upper right-hand corner of the ma
 
 The basemap can also be switched between a simple Carto Positron basemap and Open Street Map, which can be helpful to examine other local features if you zoom into the basemap.
 
-      <br><br>
-      <em>*4 developments’ opening dates have not been identified. They populate in the final year of the timeline slider, 2025. **As per December, 2025.</em>
+<em>*4 developments’ opening dates have not been identified. They populate in the final year of the timeline slider, 2025. **As per December, 2025.</em>
 
 ### NYC Developments and Housing
 <iframe src="NYCFaithBased.html" height="855" width="95%"></iframe>
